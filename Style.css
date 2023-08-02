@@ -1,0 +1,269 @@
+/* css for portfolio.html */
+       
+       body{
+        background-color: #D4F4DD;
+        }
+        header{
+        background-color: #17BEBB;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-variant: normal;
+        color: #4B1D3F;
+    }
+        
+    div.relative {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        border: 5px solid #4B1D3F;
+} 
+
+    
+
+    div.absolute img {
+       border: 5px solid #DD7373 ; 
+       background-color: #944859;
+       width: 300px;
+       height: 291px;
+       float: left;
+}
+    
+    
+        nav{
+      background-color: #4B1D3F;
+    }
+    ul{
+      text-align: center;
+    }
+    li{
+        text-align: center;
+      display: inline-block;
+      width: 150px;
+      border: 2px solid #4B1D3F;
+      line-height: 3em;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-variant: small-caps;
+      
+    }
+    a{
+      color: #DD7373;
+      text-decoration: none;
+      border: 1px solid #DD7373;
+      display: block;
+      background-color: #944859;
+      
+      }
+      
+     div.myWrapper img{
+        width: 70px;
+        height: 70px;
+     }
+        
+      
+
+     
+   
+
+
+    /* css for art.html  */
+
+   
+        body{
+            background-color: #D4F4DD;
+        }
+        header{
+            background-color: #17BEBB;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-variant: normal;
+            color: #4B1D3F;
+        }
+        nav{
+      background-color: #4B1D3F;
+    }
+    ul{
+      text-align: center;
+    }
+    li{
+        text-align: center;
+      display: inline-block;
+      width: 150px;
+      border: 2px solid #4B1D3F;
+      line-height: 3em;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-variant: small-caps;
+
+    }
+    a{
+      color: #DD7373;
+      text-decoration: none;
+      border: 1px solid #DD7373;
+      display: block;
+      background-color: #944859;
+      
+     
+    }
+    div.left, div.middle, div.right{
+    border: 5px solid #944859;
+    width: 30%;
+    height: 30%;
+    margin-bottom: 50px;
+    }
+    aside{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    div.myWrapper img{
+        width: 70px;
+        height: 70px;
+     }
+
+    /* css for animation */
+
+   
+        body{
+        background-color: #D4F4DD;
+        }
+        header{
+        background-color: #17BEBB;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-variant: normal;
+        color: #4B1D3F;
+    }
+         nav{
+      background-color: #4B1D3F;
+    }
+    ul{
+      text-align: center;
+    }
+    li{
+        text-align: center;
+      display: inline-block;
+      width: 150px;
+      border: 2px solid #4B1D3F;
+      line-height: 3em;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-variant: small-caps;
+      
+    }
+    a{
+      color: #DD7373;
+      text-decoration: none;
+      border: 1px solid #DD7373;
+      display: block;
+      background-color: #944859;
+      
+      }
+      
+     div.myWrapper img{
+        width: 70px;
+        height: 70px;
+     }
+     
+     div.animation img{
+        float: left;
+        height: 60%;
+        width: 50%;
+        border: 6px solid #944859;
+     }
+     div.animation p{
+        float: right;
+        border: 3px solid #17BEBB;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-variant: inherit;
+        font-size: medium;
+        font-weight: 500;
+     }
+     div.storyboard img{
+        border: 4px solid #DD7373;
+        margin-left: 75px;
+     }
+
+    /* css for socialmedia.html */
+  
+
+    body{
+        background-color: #D4F4DD;
+    }
+    header{
+        background-color: #17BEBB;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-variant: normal;
+        color: #4B1D3F;
+    }
+    nav{
+  background-color: #4B1D3F;
+}
+ul{
+  text-align: center;
+}
+li{
+    text-align: center;
+  display: inline-block;
+  width: 150px;
+  border: 2px solid #4B1D3F;
+  line-height: 3em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-variant: small-caps;
+
+}
+a.yeet{
+  color: #DD7373;
+  text-decoration: none;
+  border: 1px solid #DD7373;
+  display: block;
+  background-color: #944859;
+}
+div.myWrapper img{
+    width: 70px;
+    height: 70px;
+ }
+ .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+ }
+ .fa:hover {
+    opacity: 0.7;
+ }
+ .fa {
+    background: linear-gradient(to bottom right, #4B1D3F, #DD7373, #D4F4DD, #17BEBB );
+    margin-left: 50px;
+ }
+
+ .fa-pinterest {
+    background: #cb2027;
+    color: white;
+    margin-left: 50px;
+    float: left;
+  }
+  .fa-instagram {
+    background: linear-gradient(to bottom right,#355070, #64387E, #FD1172, #FFD147 );
+    color: white;
+    float: left;
+   
+   }
+   div.shop img{
+    width: 70px;
+    height: 70px;
+    margin-left: 50px;
+   }
+   div.Moi img{
+    width: 500px;
+    height: 500px;
+    border: 5px solid #DD7373;
+   }
+   div.Moi p{
+    border: 5px solid #17BEBB;
+   }
+   a.coco{
+    background-color: #D4F4DD;
+    border: #D4F4DD;
+    margin-top: 10px;
+   
+   }
+   
+ 
